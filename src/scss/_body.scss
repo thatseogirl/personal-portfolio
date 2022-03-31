@@ -1,0 +1,15 @@
+@use "./variables" as myVariable;
+@use "./mixins";
+
+.skills{
+    padding: 30px;
+    &__section{
+         display: flex;
+    
+    &__2{
+        display: flex;
+       justify-content: center;
+       gap: 30px;
+    }
+    }
+}
