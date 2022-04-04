@@ -1,0 +1,56 @@
+@use "./variables" as myVariables;
+@use "./mixins";
+
+.flex {
+  padding: 30px;
+  &__border {
+    width: 30%;
+    display: flex;
+    &__container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      &__1{
+        width: 80%;
+        padding: 100px;
+      }
+      h2{
+        font: 600 72px myVariables.$font;
+      }
+    }
+  }
+}
+// .img{
+//   background-color: myVariables.$svg;
+// }
+/*animation */
+#monitor {
+  animation: moveMonitor 4s ease-in-out infinite;
+  transform-box: fill-box;
+}
+#flash {
+  animation: flash 4s ease-in-out infinite;
+  transform-box: fill-box;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+    transform: translate(-40px, 0);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(0px, 0);
+  }
+}
+@keyframes moveMonitor {
+  0%,
+  20% {
+    opacity: 0;
+    transform: translate(-40px, 0);
+  }
+  40% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import ball from "../../images/ball.png";
 import ecommerce from "../../images/ecommerce.png";
 import calculator from "../../images/calculator.png";
 import form from "../../images/form.png";
@@ -12,13 +11,10 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 export default function Project() {
   return (
-    <div id="projects">
+    <div id="project"  data-aos="fade-right">
       <p>Portfolio</p>
-      <div>
-        <img src={ball} alt="ball" className="bounce" />
-      </div>
-      <div className="project-grid">
-        <Card style={{ width: "30rem" }}>
+      <div className="project__grid">
+        <Card className="project__grid__card"  id="card1">
           <a
             href="https://tobi-e-commerce.netlify.app/"
             target="_blank"
@@ -41,7 +37,7 @@ export default function Project() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "30rem" }}>
+        <Card className="project__grid__card" id="card2">
           <a
             href="https://redux-calculator-app.netlify.app/"
             target="_blank"
@@ -65,7 +61,7 @@ export default function Project() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "30rem" }}>
+        <Card className="project__grid__card" id="card3">
           <a
             href="https://tobi-registration-form.netlify.app/"
             target="_blank"
@@ -90,7 +86,7 @@ export default function Project() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "30rem" }}>
+        <Card className="project__grid__card" id="card4">
           <a
             href="https://tobi-fylo-website.netlify.app/"
             target="_blank"
@@ -112,7 +108,7 @@ export default function Project() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "30rem" }}>
+        <Card className="project__grid__card" id="card5">
           <a
             href="https://thatseogirl.github.io/Tip-Calculator/"
             target="_blank"
@@ -135,7 +131,7 @@ export default function Project() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "30rem" }}>
+        <Card className="project__grid__card" id="card6">
           <a
             href="https://frontend-project-integrify.netlify.app/"
             target="_blank"
@@ -152,7 +148,7 @@ export default function Project() {
             <Card.Title>Rest API</Card.Title>
             <Card.Text>
               This project was built with bootstrap, React, Redux,and
-              Typescript.Country Api was fetched from{" "}
+              Typescript.Country Api was fetched from
               <a href="https://restcountries.com/">Rest Countries API</a>
               User can view country details,switch from light to dark theme and
               add country to cart.User can view the optimal layout for the site
