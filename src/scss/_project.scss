@@ -1,21 +1,72 @@
 @use "variables" as myVariables;
 @use "mixins";
 
-.project{
+.project {
   padding: 60px;
-  &__grid{
+  &__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 70px;
-    &__card{
+    &__card {
       border-radius: 25px;
-      &__link{
-        padding: 30px;
-        border-radius: 25px !important;
-        height: 400px;
+      border: none !important;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      &__link {
+        padding: 40px;
+        height: 50vh;
+        &__parent {
+          text-decoration: none;
+          color: myVariables.$bg;
+          text-align: left;
+          padding: 40px;
+          &:hover {
+            color: myVariables.$bg;
+          }
+          &__heading {
+            font: 600 25px myVariables.$font;
+            &__review {
+              font: 200 14px myVariables.$font;
+              &__cardbtn {
+                border: 1px;
+                border-radius: 20px;
+                min-width: 200px;
+                justify-content: center;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+                font: 600 13px myVariables.$font;
+                margin-top: 50px;
+                background-color: myVariables.$hr !important;
+                outline: none !important;
+                text-transform: uppercase;
+                &:hover {
+                  background-color: myVariables.$bg !important;
+                }
+              }
+            }
+          }
+        }
       }
     }
+  }
+}
+
+.icongroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.linkicons {
+  font-size: 30px;
+  cursor: pointer;
+  &:hover {
+    color: myVariables.$hr;
   }
 }
 

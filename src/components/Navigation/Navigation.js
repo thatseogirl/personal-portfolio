@@ -1,13 +1,12 @@
 import React from "react";
 import { ReactComponent as Logo } from "../../images/logo.svg";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Navigation() {
   return (
     <div data-aos="fade-right" className="navigation">
       <Navbar collapseOnSelect expand="lg" className="navigation__container">
-        <Container>
           <Navbar.Brand>
             <Logo />
           </Navbar.Brand>
@@ -50,7 +49,6 @@ export default function Navigation() {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
     </div>
   );

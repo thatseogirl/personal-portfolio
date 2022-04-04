@@ -1,2 +1,10 @@
-@use "./variables" as myVariable;
+@use "./variables" as myVariables;
 @use "./mixins";
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font: 600 16px myVariables.$font;
+}
