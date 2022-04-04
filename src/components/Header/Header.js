@@ -4,19 +4,21 @@ import {ReactComponent as DesignSvg} from '../../images/design.svg'
 export default function Header() {
   return (
     <header className='flex' data-aos="fade-left">
-      <aside className='flex__border'>
+      <div className='flex__container'>
+            <section className='flex__container__1'>
+            <aside className='flex__container__1__border'>
       <hr className='linerule' />
       <p className='linerule__text'>Tobiloba Arotimi</p>
       </aside>
-      <div className='flex__border__container'>
-            <section className='flex__border__container__1'>
-                <h2>Hello, my name's Tobi.I'm a Frontend</h2>
-                  <div data-aos="flip-up">
-                    <p>Developer.</p>
-                  </div>
+      <div className='about'>
+                <p className='about'>Hello, my</p>
+                  <p className='about'>name's Tobi.</p> 
+                  <p className='about'>I'm a Frontend</p>
+                    <p data-aos="flip-up" className='about' >Developer.</p>
+                    </div>
             </section>
          
-          <div className="flex__border__container__1__2"> 
+          <div className="flex__container__1__border__2"> 
             <DesignSvg className="flex__border__container__1__2__img" />
             </div>
             </div>

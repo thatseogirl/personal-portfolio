@@ -2,27 +2,41 @@
 @use "./mixins";
 
 .flex {
-  padding: 30px;
-  &__border {
-    width: 30%;
-    display: flex;
-    &__container{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-      &__1{
-        width: 80%;
-        padding: 100px;
+  padding: 50px;
+  &__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    &__1{
+      width: 600px;
+      padding: 50px;
+      &__border {
+        width: 55%;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 40px;
+        color: myVariables.$hr;
+        }
       }
-      h2{
-        font: 600 72px myVariables.$font;
-      }
-    }
   }
 }
-// .img{
-//   background-color: myVariables.$svg;
-// }
+
+.linerule{
+  border: 1px solid;
+  width: 40px;
+  &__text{
+    font:600 20px myVariables.$font;
+  }
+}
+.about{
+    font: 600 60px myVariables.$font;
+    color: myVariables.$bg;
+    text-align: left;
+    line-height: 1em;
+    padding-left: 40px;
+   
+}
+
 /*animation */
 #monitor {
   animation: moveMonitor 4s ease-in-out infinite;

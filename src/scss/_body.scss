@@ -1,15 +1,139 @@
-@use "./variables" as myVariable;
+@use "./variables" as myVariables;
 @use "./mixins";
 
 .skills{
-    padding: 30px;
-    &__section{
-         display: flex;
-    
-    &__2{
-        display: flex;
-       justify-content: center;
-       gap: 30px;
+    padding: 60px;
+    &__section__1{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    &__layout{
+        padding: 50px;
+        &__wrapper{
+            width: 25%;
+            display: grid;
+            grid-template-columns: auto auto;
+            color: myVariables.$hr;
+            &__line{
+                border: 1px solid;
+                width: 40px;
+                &__text{
+                    font:600 20px myVariables.$font;
+                    &__sub{
+                        &__heading{
+                        font:600 22px myVariables.$font;
+                        color: myVariables.$bg;
+                        &__calltoaction{
+                            display: grid;
+                            grid-template-columns: auto auto;
+                            gap: 10px;
+                            padding-top: 60px;
+                            font:600 100px myVariables.$font;
+                            color: myVariables.$bg;
+                            word-spacing: 1rem;
+                            line-height: 0.9em;
+                            &__button{
+                                border: 1px;
+                                border-radius: 20px;
+                                min-width: 200px;
+                                color: #fff;
+                                padding: 20px;
+                                text-align: center;
+                                margin-top: 50px;
+                                background-color: myVariables.$hr !important;
+                                outline: none !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     }
 }
+}
+.card__section{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   padding: 50px;
+   &__cardwrapper{
+       width: 20rem;
+       height: 500px;
+       border: none!important;
+       border-radius: 20px;
+       &:hover{
+           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+           cursor: pointer;
+       }
+       &__image{
+           padding: 40px;
+           border-radius: 50%;
+           width: 100%;
+            height: 40vh;
+            transition: all 2s ease;
+           &:hover{
+            transform: scale(1.1) rotate(0.001deg);
+           }
+           &__body{
+               padding: 30px;
+               font-family:myVariables.$font;
+               text-align: center;
+               &__title{
+                   font-weight: 600;
+                   font-size: 18px;
+                   &__description{
+                    font-weight: 400;
+                    font-size: 12px;
+                   }
+               }
+           }
+       }
+   }
+}
+
+/*animation */
+#box1 {
+    animation: moveScreen 4s ease-in-out infinite;
+    transform-box: fill-box;
+  }
+  #box2 {
+    animation: moveScreen2 4s ease-in-out infinite;
+    transform-box: fill-box;
+  }
+  #box3 {
+    animation: moveScreen3 4s ease-in-out infinite;
+    transform-box: fill-box;
+  }
+  @keyframes moveScreen {
+    0% {
+      opacity: 0;
+      transform: translate(-40px, 0);
+    }
+    20% {
+      opacity: 1;
+      transform: translate(0px, 0);
+    }
+  }
+  @keyframes moveScreen2 {
+    0%,
+    20% {
+      opacity: 0;
+      transform: translate(-40px, 0);
+    }
+    40% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes moveScreen3 {
+    0%,
+    40% {
+      opacity: 0;
+      transform: translate(-40px, 0);
+    }
+    60% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }

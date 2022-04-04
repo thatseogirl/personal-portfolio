@@ -2,10 +2,9 @@
 @use "./mixins";
 
 .navigation {
-  padding: 50px;
+  padding: 40px;
   &__container {
     &__link {
-      margin-left: 65px;
       font: 500 0.875em myVariables.$font;
       color: myVariables.$nav-color !important;
       &:hover {
@@ -14,7 +13,7 @@
       &__icon {
         margin-right: 15px;
         &__responsive {
-          font: 500 18px myVariables.$font;
+          font: 500 15px myVariables.$font;
           margin-left: 20px;
           &__li {
             color: myVariables.$bg !important;

@@ -3,7 +3,7 @@ import {FaGithub,FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className='animate__tada' data-aos="fade-left">
+    <footer>
         <div>
             <p>Created by © Copyright<a href='https://github.com/thatseogirl'>Arotimi Tobiloba 2022!</a></p>
         </div>
