@@ -92,6 +92,7 @@
   justify-content: center;
   @include mixins.respond(small) {
     flex-direction: column;
+    padding: 30px;
   }
 
   &__cardwrapper {
