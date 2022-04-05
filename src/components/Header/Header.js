@@ -8,7 +8,7 @@ export default function Header() {
         <section className="flex__container__1">
           <aside className="flex__container__1__border">
             <hr className="linerule" />
-            <p className="linerule__text">Tobiloba Arotimi</p>
+            <p className="linerule__text">Tobiloba </p>
           </aside>
           <div className="about">
             <p className="about">Hello, my name's Tobi. I'm a Frontend</p>
