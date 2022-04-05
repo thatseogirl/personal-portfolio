@@ -9,7 +9,7 @@ export default function Navigation() {
         <Navbar.Brand className="brand">portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto mobile">
             <Nav.Link
               className="navigation__container__link"
               href="https://www.linkedin.com/in/tobiloba-arotimi/"

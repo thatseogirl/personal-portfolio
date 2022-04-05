@@ -51,8 +51,8 @@ export default function Body() {
               Frontend Development
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
-              A frontend developer who specializes create user friendly websites
-              and responsive websites with bootstrap, CSS, HTML,
+              A frontend developer who specializes in creating user friendly
+              website and responsive website, with bootstrap, CSS, HTML,
               Javascript,Material UI, React/Redux and Typescript
             </Card.Text>
           </Card.Body>
@@ -88,7 +88,7 @@ export default function Body() {
               Digital Content Marketing
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
-              I create a great contents to impact an the target audience
+              I create great contents to impact an the target audience
               positively while generating leads and acquiring customers.
             </Card.Text>
           </Card.Body>

@@ -41,7 +41,7 @@
               &__heading {
                 font: 600 22px myVariables.$font;
                 color: myVariables.$bg;
-                @include mixins.respond(thin){
+                @include mixins.respond(thin) {
                   font-size: 15px;
                 }
                 &__calltoaction {
@@ -56,8 +56,8 @@
                   @include mixins.respond(thin) {
                     font: 600 30px myVariables.$font;
                     display: flex;
-    gap: 10px;
-    padding-top: 30px;
+                    gap: 10px;
+                    padding-top: 30px;
                   }
 
                   &__button {
@@ -125,17 +125,14 @@
       }
 
       &__body {
-        padding: 30px;
-        font-family: myVariables.$font;
+        padding: 20px;
         text-align: center;
 
         &__title {
-          font-weight: 600;
-          font-size: 18px;
+          font: 600 18px myVariables.$font;
 
           &__description {
-            font-weight: 400;
-            font-size: 12px;
+            font: 200 12px myVariables.$font;
           }
         }
       }

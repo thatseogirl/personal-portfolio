@@ -96,11 +96,11 @@
 .img {
   width: 100%;
   @include mixins.respond(thin) {
-     height: 250px;
+    height: 250px;
   }
 }
-.flip{
+.flip {
   @include mixins.respond(thin) {
-  line-height: 0.5em;
-}
+    line-height: 0.5em;
+  }
 }

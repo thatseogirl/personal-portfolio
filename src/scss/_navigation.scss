@@ -42,8 +42,14 @@
   color: myVariables.$hr !important;
   text-transform: uppercase;
   letter-spacing: 10px;
-  &::after{
+  &::after {
     content: ".";
     color: black;
+  }
+}
+
+.mobile {
+  @include mixins.respond(medium) {
+    visibility: hidden;
   }
 }

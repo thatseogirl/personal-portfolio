@@ -5,17 +5,23 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div>
-        <p>Created by Arotimi Tobiloba| © 2022 All rights reserved.</p>
+        <p>Created by Arotimi Tobiloba</p>
       </div>
       <div className="footer__social">
-        <FaLinkedin
-          className="footer__social__favicon"
+        <a
           href="https://www.linkedin.com/in/tobiloba-arotimi/"
-        />
-        <FaGithub
-          className="footer__social__favicon"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin className="footer__social__favicon" />
+        </a>
+        <a
           href="https://github.com/thatseogirl"
-        />
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub className="footer__social__favicon" />
+        </a>
       </div>
     </footer>
   );

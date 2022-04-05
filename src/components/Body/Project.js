@@ -20,7 +20,7 @@ export default function Project() {
           <hr className="aside__horizontal__rule" />
           <p className="aside__horizontal__rule__ptag">Portfolio</p>
         </div>
-        <p className="portfolio">Look at My Projects.</p>
+        <p className="portfolio">Projects.</p>
       </aside>
       <div className="project__grid">
         <Card className="project__grid__card" id="card1">
@@ -38,16 +38,20 @@ export default function Project() {
               It is a landing page for an E-commerce website.
             </Card.Text>
             <div className="icongroup">
-              <AiOutlineGithub
-                className="linkicons"
+              <a
                 href="https://github.com/thatseogirl/E-commerce-Landing-Page"
                 target="_blank"
-              />
-              <FaEyeSlash
-                className="linkicons"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
                 href="https://tobi-e-commerce.netlify.app/"
                 target="_blank"
-              />
+                rel="noreferrer"
+              >
+                <FaEyeSlash className="linkicons" />
+              </a>
             </div>
           </Card.Body>
         </Card>
@@ -67,16 +71,20 @@ export default function Project() {
               subtract,multiply and divide.
             </Card.Text>
             <div className="icongroup">
-              <AiOutlineGithub
-                className="linkicons"
+              <a
                 href="https://github.com/thatseogirl/calculator-app"
                 target="_blank"
-              />
-              <FaEyeSlash
-                className="linkicons"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
                 href="https://redux-calculator-app.netlify.app/"
                 target="_blank"
-              />
+                rel="noreferrer"
+              >
+                <FaEyeSlash className="linkicons" />
+              </a>
             </div>
           </Card.Body>
         </Card>
@@ -89,23 +97,28 @@ export default function Project() {
           />
           <Card.Body className="project__grid__card__link__parent">
             <Card.Title className="project__grid__card__link__parent__heading">
-              Registration Form{" "}
+              Registration Form
             </Card.Title>
             <Card.Text className="project__grid__card__link__parent__heading__review">
               This is a registration form that allows users to create an account
               and login.
             </Card.Text>
             <div className="icongroup">
-              <AiOutlineGithub
-                className="linkicons"
+              <a
                 href="https://github.com/thatseogirl/Registration-form"
                 target="_blank"
-              />
-              <FaEyeSlash
-                className="linkicons"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
                 href="https://tobi-registration-form.netlify.app/"
                 target="_blank"
-              />
+                rel="noreferrer"
+              >
+                {" "}
+                <FaEyeSlash className="linkicons" />
+              </a>
             </div>
           </Card.Body>
         </Card>
@@ -125,16 +138,20 @@ export default function Project() {
               signUp component.
             </Card.Text>
             <div className="icongroup">
-              <AiOutlineGithub
-                className="linkicons"
+              <a
                 href="https://github.com/thatseogirl/Fylo-dark-theme-website"
                 target="_blank"
-              />
-              <FaEyeSlash
-                className="linkicons"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
                 href="https://tobi-fylo-website.netlify.app/"
                 target="_blank"
-              />
+                rel="noreferrer"
+              >
+                <FaEyeSlash className="linkicons" />
+              </a>
             </div>
           </Card.Body>
         </Card>
@@ -154,16 +171,20 @@ export default function Project() {
               and tip per person.
             </Card.Text>
             <div className="icongroup">
-              <AiOutlineGithub
-                className="linkicons"
+              <a
                 href="https://github.com/thatseogirl/Tip-Calculator"
                 target="_blank"
-              />
-              <FaEyeSlash
-                className="linkicons"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
                 href="https://thatseogirl.github.io/Tip-Calculator/"
                 target="_blank"
-              />
+                rel="noreferrer"
+              >
+                <FaEyeSlash className="linkicons" />
+              </a>
             </div>
           </Card.Body>
         </Card>
@@ -183,16 +204,20 @@ export default function Project() {
               details and add country to cart.
             </Card.Text>
             <div className="icongroup">
-              <AiOutlineGithub
-                className="linkicons"
+              <a
                 href="https://github.com/thatseogirl/is3-frontend-project"
                 target="_blank"
-              />
-              <FaEyeSlash
-                className="linkicons"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
                 href="https://frontend-project-integrify.netlify.app/"
                 target="_blank"
-              />
+                rel="noreferrer"
+              >
+                <FaEyeSlash className="linkicons" />
+              </a>
             </div>
           </Card.Body>
         </Card>
@@ -212,16 +237,20 @@ export default function Project() {
               projects on my Github.
             </Card.Text>
             <div className="icongroup">
-              <AiOutlineGithub
-                className="linkicons"
+              <a
                 href="https://github.com/thatseogirl/personal-portfolio"
                 target="_blank"
-              />
-              <FaEyeSlash
-                className="linkicons"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
                 href="https://arotimi-tobiloba.netlify.app/"
                 target="_blank"
-              />
+                rel="noreferrer"
+              >
+                <FaEyeSlash className="linkicons" />
+              </a>
             </div>
           </Card.Body>
         </Card>
@@ -241,16 +270,20 @@ export default function Project() {
               between viewing daily, weekly, and monthly stats
             </Card.Text>
             <div className="icongroup">
-              <AiOutlineGithub
-                className="linkicons"
+              <a
                 href="https://github.com/thatseogirl/Time-tracking-dashboard"
                 target="_blank"
-              />
-              <FaEyeSlash
-                className="linkicons"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
                 href="https://thatseogirl.github.io/Time-tracking-dashboard/"
                 target="_blank"
-              />
+                rel="noreferrer"
+              >
+                <FaEyeSlash className="linkicons" />
+              </a>
             </div>
           </Card.Body>
         </Card>
