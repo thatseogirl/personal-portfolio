@@ -219,7 +219,7 @@ export default function Project() {
               />
               <FaEyeSlash
                 className="linkicons"
-                href="https://tobi-e-commerce.netlify.app/"
+                href="https://arotimi-tobiloba.netlify.app/"
                 target="_blank"
               />
             </div>
