@@ -37,7 +37,10 @@
       &__link {
         padding: 40px;
         height: 50vh;
-
+        @include mixins.respond(thin) {
+          height: 30vh;
+         }
+        
         &__parent {
           text-decoration: none;
           color: myVariables.$bg;
@@ -101,7 +104,9 @@
     grid-template-columns: auto auto;
     color: myVariables.$hr;
     padding: 30px;
-
+    @include mixins.respond(thin) {
+     padding: 0;
+    }
     &__rule {
       border: 1px solid;
       width: 80px;
@@ -114,8 +119,9 @@
 }
 
 .portfolio {
-  font: 600 80px myVariables.$bg;
+  font: 600 80px myVariables.$font;
   @include mixins.respond(medium) {
-    font-size: 50px;
+    font: 600 50px myVariables.$font;
+    line-height: 1em;
   }
 }

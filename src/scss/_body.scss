@@ -41,7 +41,9 @@
               &__heading {
                 font: 600 22px myVariables.$font;
                 color: myVariables.$bg;
-
+                @include mixins.respond(thin){
+                  font-size: 15px;
+                }
                 &__calltoaction {
                   display: grid;
                   grid-template-columns: auto auto;
@@ -52,9 +54,10 @@
                   word-spacing: 1rem;
                   line-height: 0.9em;
                   @include mixins.respond(thin) {
-                    font: 600 20px myVariables.$font;
-                    grid-template-columns: auto auto auto;
-                    gap: 0;
+                    font: 600 30px myVariables.$font;
+                    display: flex;
+    gap: 10px;
+    padding-top: 30px;
                   }
 
                   &__button {
@@ -71,9 +74,7 @@
                     outline: none !important;
                     @include mixins.respond(thin) {
                       width: 100%;
-                    }
-                    &:hover {
-                      background-color: myVariables.$bg !important;
+                      margin-top: 0;
                     }
                   }
                 }

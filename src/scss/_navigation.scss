@@ -42,4 +42,8 @@
   color: myVariables.$hr !important;
   text-transform: uppercase;
   letter-spacing: 10px;
+  &::after{
+    content: ".";
+    color: black;
+  }
 }

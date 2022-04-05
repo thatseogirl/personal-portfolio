@@ -3,7 +3,9 @@
 
 .flex {
   padding: 50px;
-
+  @include mixins.respond(thin) {
+    padding-top: 0;
+  }
   &__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -28,7 +30,7 @@
         color: myVariables.$hr;
         @include mixins.respond(thin) {
           padding: 0;
-          width: 35%;
+          width: 80%;
         }
       }
     }
@@ -53,7 +55,8 @@
   @include mixins.respond(thin) {
     font: 600 30px myVariables.$font;
     padding-left: 10px;
-    line-height: 0.8em;
+    line-height: 1.5em;
+    width: 95%;
   }
 }
 
@@ -92,4 +95,12 @@
 
 .img {
   width: 100%;
+  @include mixins.respond(thin) {
+     height: 250px;
+  }
+}
+.flip{
+  @include mixins.respond(thin) {
+  line-height: 0.5em;
+}
 }

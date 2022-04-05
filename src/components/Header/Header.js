@@ -12,7 +12,7 @@ export default function Header() {
           </aside>
           <div className="about">
             <p className="about">Hello, my name's Tobi. I'm a Frontend</p>
-            <p data-aos="flip-up" className="about">
+            <p data-aos="flip-up" className="about flip">
               Developer.
             </p>
           </div>
