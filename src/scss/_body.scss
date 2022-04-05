@@ -2,10 +2,6 @@
 @use "./mixins";
 
 .skills {
-  padding: 60px;
-  @include mixins.respond(thin) {
-    padding: 40px;
-  }
 
   &__section__1 {
     display: grid;
@@ -17,14 +13,17 @@
 
     &__layout {
       padding: 50px;
+      margin-left: 40px;
       @include mixins.respond(thin) {
-        padding: 0;
+        padding: 30px;
+        margin-left: 0px;
       }
 
       &__wrapper {
         width: 25%;
         display: grid;
         grid-template-columns: auto auto;
+        justify-content: center;
         color: myVariables.$hr;
         @include mixins.respond(thin) {
           width: 50%;
@@ -91,12 +90,8 @@
   display: flex;
   gap: 20px;
   justify-content: center;
-  padding: 50px;
   @include mixins.respond(small) {
     flex-direction: column;
-  }
-  @include mixins.respond(thin) {
-    padding: 0;
   }
 
   &__cardwrapper {

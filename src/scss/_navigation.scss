@@ -3,7 +3,6 @@
 
 .navigation {
   padding: 40px;
-
   &__container {
     padding: 20px;
     @include mixins.respond(thin) {
@@ -46,10 +45,13 @@
     content: ".";
     color: black;
   }
+  @include mixins.respond(medium) {
+    font: 600 15px myVariables.$font;
+     }
 }
 
 .mobile {
   @include mixins.respond(medium) {
-    visibility: hidden;
+ display: none;
   }
 }

@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 30px;
+    padding: 40px;
     @include mixins.respond(medium) {
       grid-template-columns: 1fr;
     }
@@ -35,10 +35,11 @@
       }
 
       &__link {
-        padding: 40px;
-        width: 80%;
-        height: 80%;
-        margin: auto;
+        height: 50vh;
+        border-radius: 10px;
+        @include mixins.respond (thin){
+          height: 30vh;
+        }
 
         &__parent {
           text-decoration: none;
@@ -95,14 +96,13 @@
 }
 
 .aside {
-  padding: 50px;
-
+  padding: 20px;
   &__horizontal {
     width: 25%;
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
     color: myVariables.$hr;
-    padding: 30px;
     @include mixins.respond(thin) {
       padding: 0;
       width: 50%;
@@ -118,13 +118,6 @@
   }
 }
 
-.portfolio {
-  font: 600 80px myVariables.$font;
-  @include mixins.respond(medium) {
-    font: 600 50px myVariables.$font;
-    line-height: 1em;
-  }
-}
 a{
   text-decoration: none;
   color: myVariables.$bg;

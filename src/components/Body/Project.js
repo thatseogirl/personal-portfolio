@@ -18,9 +18,8 @@ export default function Project() {
       <aside className="aside">
         <div className="aside__horizontal">
           <hr className="aside__horizontal__rule" />
-          <p className="aside__horizontal__rule__ptag">Portfolio</p>
+          <p className="aside__horizontal__rule__ptag">Look at my projects</p>
         </div>
-        <p className="portfolio">Projects.</p>
       </aside>
       <div className="project__grid">
         <Card className="project__grid__card" id="card1">
