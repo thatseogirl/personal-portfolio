@@ -3,45 +3,65 @@
 
 .flex {
   padding: 50px;
-  &__container{
+
+  &__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    &__1{
+    @include mixins.respond(medium) {
+      grid-template-columns: 1fr;
+    }
+
+    &__1 {
       width: 600px;
       padding: 50px;
+      @include mixins.respond(thin) {
+        padding: 0;
+        width: 100%;
+      }
+
       &__border {
         width: 55%;
         display: grid;
         grid-template-columns: auto auto;
         padding-left: 40px;
         color: myVariables.$hr;
+        @include mixins.respond(thin) {
+          padding: 0;
+          width: 35%;
         }
       }
+    }
   }
 }
 
-.linerule{
+.linerule {
   border: 1px solid;
   width: 40px;
-  &__text{
-    font:600 20px myVariables.$font;
+
+  &__text {
+    font: 600 20px myVariables.$font;
   }
 }
-.about{
-    font: 600 60px myVariables.$font;
-    color: myVariables.$bg;
-    text-align: left;
-    line-height: 1em;
-    padding-left: 40px;
-   
+
+.about {
+  font: 600 60px myVariables.$font;
+  color: myVariables.$bg;
+  text-align: left;
+  line-height: 1.2em;
+  padding-left: 40px;
+  @include mixins.respond(thin) {
+    font: 600 30px myVariables.$font;
+    padding-left: 10px;
+    line-height: 0.8em;
+  }
 }
 
-/*animation */
 #monitor {
   animation: moveMonitor 4s ease-in-out infinite;
   transform-box: fill-box;
 }
+
 #flash {
   animation: flash 4s ease-in-out infinite;
   transform-box: fill-box;
@@ -57,6 +77,7 @@
     transform: translate(0px, 0);
   }
 }
+
 @keyframes moveMonitor {
   0%,
   20% {
@@ -67,4 +88,8 @@
     opacity: 1;
     transform: translate(0, 0);
   }
+}
+
+.img {
+  width: 100%;
 }

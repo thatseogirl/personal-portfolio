@@ -3,18 +3,27 @@
 
 .navigation {
   padding: 40px;
+
   &__container {
+    padding: 20px;
+    @include mixins.respond(thin) {
+      padding: 0;
+    }
+
     &__link {
       font: 500 0.875em myVariables.$font;
       color: myVariables.$nav-color !important;
       &:hover {
         color: myVariables.$bg !important;
       }
+
       &__icon {
         margin-right: 15px;
+
         &__responsive {
           font: 500 15px myVariables.$font;
           margin-left: 20px;
+
           &__li {
             color: myVariables.$bg !important;
             margin-right: 40px;
@@ -26,4 +35,11 @@
       }
     }
   }
+}
+
+.brand {
+  font: 600 20px myVariables.$font;
+  color: myVariables.$hr !important;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }

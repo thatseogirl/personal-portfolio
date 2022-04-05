@@ -9,16 +9,18 @@ import form from "../../images/form.png";
 import fylo from "../../images/fylo.png";
 import tip from "../../images/tip.png";
 import restapi from "../../images/restapi.png";
+import portfolio from "../../images/portfolio.png";
+import dashboard from "../../images/dashboard.png";
 
 export default function Project() {
   return (
     <div id="project" className="project" data-aos="fade-right">
-      <aside className="skills__section__1__layout__wrapper">
-        <hr className="skills__section__1__layout__wrapper__line" />
-        <p className="skills__section__1__layout__wrapper__line__text">
-          Portfolio
-        </p>
-        <p className="portfolio">Look at My Projects</p>
+      <aside className="aside">
+        <div className="aside__horizontal">
+          <hr className="aside__horizontal__rule" />
+          <p className="aside__horizontal__rule__ptag">Portfolio</p>
+        </div>
+        <p className="portfolio">Look at My Projects.</p>
       </aside>
       <div className="project__grid">
         <Card className="project__grid__card" id="card1">
@@ -87,9 +89,12 @@ export default function Project() {
           />
           <Card.Body className="project__grid__card__link__parent">
             <Card.Title className="project__grid__card__link__parent__heading">
-              Registration Form  </Card.Title>
-              <Card.Text className="project__grid__card__link__parent__heading__review">This is a registration form that allows users to create an account and login.
-          </Card.Text>
+              Registration Form{" "}
+            </Card.Title>
+            <Card.Text className="project__grid__card__link__parent__heading__review">
+              This is a registration form that allows users to create an account
+              and login.
+            </Card.Text>
             <div className="icongroup">
               <AiOutlineGithub
                 className="linkicons"
@@ -105,19 +110,20 @@ export default function Project() {
           </Card.Body>
         </Card>
         <Card className="project__grid__card" id="card4">
-            <Card.Img
-              className="project__grid__card__link"
-              variant="top"
-              src={fylo}
-              alt="Fylo dark theme website"
-            />
-            <Card.Body className="project__grid__card__link__parent">
-              <Card.Title className="project__grid__card__link__parent__heading">
-                Fylo dark theme website
-              </Card.Title>
-              <Card.Text className="project__grid__card__link__parent__heading__review">
-                This a dark themed website built with fromyik and yup for the signUp component.
-              </Card.Text>
+          <Card.Img
+            className="project__grid__card__link"
+            variant="top"
+            src={fylo}
+            alt="Fylo dark theme website"
+          />
+          <Card.Body className="project__grid__card__link__parent">
+            <Card.Title className="project__grid__card__link__parent__heading">
+              Fylo dark theme website
+            </Card.Title>
+            <Card.Text className="project__grid__card__link__parent__heading__review">
+              This a dark themed website built with fromyik and yup for the
+              signUp component.
+            </Card.Text>
             <div className="icongroup">
               <AiOutlineGithub
                 className="linkicons"
@@ -130,7 +136,7 @@ export default function Project() {
                 target="_blank"
               />
             </div>
-            </Card.Body>
+          </Card.Body>
         </Card>
         <Card className="project__grid__card" id="card5">
           <Card.Img
@@ -144,7 +150,8 @@ export default function Project() {
               Tip Calculator
             </Card.Title>
             <Card.Text className="project__grid__card__link__parent__heading__review">
-              This is a Tip Calculator that allows users calculate their bills and tip per person.
+              This is a Tip Calculator that allows users calculate their bills
+              and tip per person.
             </Card.Text>
             <div className="icongroup">
               <AiOutlineGithub
@@ -184,6 +191,64 @@ export default function Project() {
               <FaEyeSlash
                 className="linkicons"
                 href="https://frontend-project-integrify.netlify.app/"
+                target="_blank"
+              />
+            </div>
+          </Card.Body>
+        </Card>
+        <Card className="project__grid__card" id="card7">
+          <Card.Img
+            className="project__grid__card__link"
+            variant="top"
+            src={portfolio}
+            alt="Portfolio"
+          />
+          <Card.Body className="project__grid__card__link__parent">
+            <Card.Title className="project__grid__card__link__parent__heading">
+              Portfolio
+            </Card.Title>
+            <Card.Text className="project__grid__card__link__parent__heading__review">
+              This is an overview of some of my Projects,you can also view all
+              projects on my Github.
+            </Card.Text>
+            <div className="icongroup">
+              <AiOutlineGithub
+                className="linkicons"
+                href="https://github.com/thatseogirl/personal-portfolio"
+                target="_blank"
+              />
+              <FaEyeSlash
+                className="linkicons"
+                href="https://tobi-e-commerce.netlify.app/"
+                target="_blank"
+              />
+            </div>
+          </Card.Body>
+        </Card>
+        <Card className="project__grid__card" id="card8">
+          <Card.Img
+            className="project__grid__card__link"
+            variant="top"
+            src={dashboard}
+            alt="Time tracking dashboard"
+          />
+          <Card.Body className="project__grid__card__link__parent">
+            <Card.Title className="project__grid__card__link__parent__heading">
+              Time Tracking Dashboard
+            </Card.Title>
+            <Card.Text className="project__grid__card__link__parent__heading__review">
+              This is a Time tracking dashboard, it allows users to switch
+              between viewing daily, weekly, and monthly stats
+            </Card.Text>
+            <div className="icongroup">
+              <AiOutlineGithub
+                className="linkicons"
+                href="https://github.com/thatseogirl/Time-tracking-dashboard"
+                target="_blank"
+              />
+              <FaEyeSlash
+                className="linkicons"
+                href="https://thatseogirl.github.io/Time-tracking-dashboard/"
                 target="_blank"
               />
             </div>

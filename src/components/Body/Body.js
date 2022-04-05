@@ -46,15 +46,14 @@ export default function Body() {
             src="https://reactjs.org/logo-og.png"
             alt="Frontend Development"
           />
-          <Card.Body
-            className="card__section__cardwrapper__image__body"
-          >
+          <Card.Body className="card__section__cardwrapper__image__body">
             <Card.Title className="card__section__cardwrapper__image__body__title">
               Frontend Development
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              A frontend developer who specializes create user friendly websites
+              and responsive websites with bootstrap, CSS, HTML,
+              Javascript,Material UI, React/Redux and Typescript
             </Card.Text>
           </Card.Body>
         </Card>
@@ -66,15 +65,13 @@ export default function Body() {
             src="https://www.wiseo.be/sites/default/files/Knowledge-base-part-3_technical-SEO.png"
             alt="Technical SEO"
           />
-          <Card.Body
-            className="card__section__cardwrapper__image__body"
-          >
+          <Card.Body className="card__section__cardwrapper__image__body">
             <Card.Title className="card__section__cardwrapper__image__body__title">
               Technical SEO
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              As a technical SEO Analyst, I modify, test and analyze web pages
+              for search engine optimization.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -86,15 +83,13 @@ export default function Body() {
             src="https://www.customerscope.nl/wp-content/uploads/2018/10/Digital-marketing-1080x675.jpg"
             alt="Digital marketing"
           />
-          <Card.Body
-            className="card__section__cardwrapper__image__body"
-          >
+          <Card.Body className="card__section__cardwrapper__image__body">
             <Card.Title className="card__section__cardwrapper__image__body__title">
-              Digital Marketing
+              Digital Content Marketing
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              I create a great contents to impact an the target audience
+              positively while generating leads and acquiring customers.
             </Card.Text>
           </Card.Body>
         </Card>

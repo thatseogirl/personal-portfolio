@@ -1,10 +1,19 @@
 @use "./variables" as myVariables;
 @use "./mixins";
 
-
-footer{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    font: 600 16px myVariables.$font;
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font: 600 15px myVariables.$font;
+  &__social {
+    &__favicon {
+      margin-left: 20px;
+      font-size: 20px;
+      &:hover {
+        color: myVariables.$hr;
+        cursor: pointer;
+      }
+    }
+  }
 }
