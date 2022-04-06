@@ -19,13 +19,14 @@
       }
 
       &__border {
-        width: 55%;
+        width: 25%;
         display: grid;
         grid-template-columns: auto auto;
+        margin-left: 30px;
         color: myVariables.$hr;
         @include mixins.respond(thin) {
-          padding: 0;
           width: 50%;
+          margin-left: 0;
         }
       }
     }
