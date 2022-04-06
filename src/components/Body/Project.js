@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEyeSlash } from "react-icons/fa";
+import { BsEyeFill } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Card } from "react-bootstrap";
 
@@ -49,7 +49,7 @@ export default function Project() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaEyeSlash className="linkicons" />
+                <BsEyeFill className="linkicons" />
               </a>
             </div>
           </Card.Body>
@@ -82,7 +82,7 @@ export default function Project() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaEyeSlash className="linkicons" />
+                <BsEyeFill className="linkicons" />
               </a>
             </div>
           </Card.Body>
@@ -115,8 +115,8 @@ export default function Project() {
                 target="_blank"
                 rel="noreferrer"
               >
-                {" "}
-                <FaEyeSlash className="linkicons" />
+
+                <BsEyeFill className="linkicons" />
               </a>
             </div>
           </Card.Body>
@@ -149,7 +149,7 @@ export default function Project() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaEyeSlash className="linkicons" />
+                <BsEyeFill className="linkicons" />
               </a>
             </div>
           </Card.Body>
@@ -182,7 +182,7 @@ export default function Project() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaEyeSlash className="linkicons" />
+                <BsEyeFill className="linkicons" />
               </a>
             </div>
           </Card.Body>
@@ -215,7 +215,7 @@ export default function Project() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaEyeSlash className="linkicons" />
+                <BsEyeFill className="linkicons" />
               </a>
             </div>
           </Card.Body>
@@ -248,7 +248,7 @@ export default function Project() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaEyeSlash className="linkicons" />
+                <BsEyeFill className="linkicons" />
               </a>
             </div>
           </Card.Body>
@@ -281,7 +281,7 @@ export default function Project() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaEyeSlash className="linkicons" />
+                <BsEyeFill className="linkicons" />
               </a>
             </div>
           </Card.Body>

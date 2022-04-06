@@ -51,9 +51,12 @@ export default function Body() {
               Frontend Development
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
-              A frontend developer who specializes in creating user friendly
-              website and responsive website, with bootstrap, CSS, HTML,
-              Javascript,Material UI, React/Redux and Typescript
+              A Frontend developer who specializes in creating user friendly
+              website and responsive website, Technologies I can use
+              <span>
+                Bootstrap, CSS, HTML, Javascript,Material UI, React/Redux SASS, and
+                Typescript.
+              </span>
             </Card.Text>
           </Card.Body>
         </Card>
@@ -71,7 +74,8 @@ export default function Body() {
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
               As a technical SEO Analyst, I modify, test and analyze web pages
-              for search engine optimization.
+              for search engine optimization.Technologies I can use
+              <span> Yoast SEO, Google Analytics.</span>
             </Card.Text>
           </Card.Body>
         </Card>
@@ -89,7 +93,11 @@ export default function Body() {
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
               I create great contents to impact an the target audience
-              positively while generating leads and acquiring customers.
+              positively while generating leads and acquiring
+              customers.Technologies I can use
+              <span>
+                 Canva, Msoffice, Adobe Photoshop, Trello,Adobe Illustrator
+              </span>
             </Card.Text>
           </Card.Body>
         </Card>
