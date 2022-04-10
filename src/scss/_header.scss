@@ -97,7 +97,8 @@
   }
 }
 .flip {
+  line-height: 0.5em;
   @include mixins.respond(thin) {
-    line-height: 0.5em;
+    line-height: 0em;
   }
 }
