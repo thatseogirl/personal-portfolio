@@ -310,7 +310,7 @@ export default function Project() {
                 <AiOutlineGithub className="linkicons" />
               </a>
               <a
-                href="tobi-airbnb-clone.netlify.app/"
+                href="https://tobi-airbnb-clone.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
