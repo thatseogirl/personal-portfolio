@@ -11,6 +11,7 @@ import tip from "../../images/tip.png";
 import restapi from "../../images/restapi.png";
 import portfolio from "../../images/portfolio.png";
 import dashboard from "../../images/dashboard.png";
+import airbnb from "../../images/airbnb.png"
 
 export default function Project() {
   return (
@@ -278,6 +279,38 @@ export default function Project() {
               </a>
               <a
                 href="https://thatseogirl.github.io/Time-tracking-dashboard/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsEyeFill className="linkicons" />
+              </a>
+            </div>
+          </Card.Body>
+        </Card>
+        <Card className="project__grid__card" id="card8">
+          <Card.Img
+            className="project__grid__card__link"
+            variant="top"
+            src={airbnb}
+            alt="airbnb-clone"
+          />
+          <Card.Body className="project__grid__card__link__parent">
+            <Card.Title className="project__grid__card__link__parent__heading">
+              Airbnb Clone
+            </Card.Title>
+            <Card.Text className="project__grid__card__link__parent__heading__review">
+              This is a clone of the Airbnb Landing page.
+            </Card.Text>
+            <div className="icongroup">
+              <a
+                href="https://github.com/thatseogirl/airbnb-clone"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
+                href="tobi-airbnb-clone.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
