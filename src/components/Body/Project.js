@@ -205,7 +205,7 @@ export default function Project() {
             </Card.Text>
             <div className="icongroup">
               <a
-                href="https://github.com/thatseogirl/RestApi"
+                href="https://github.com/thatseogirl/is3-frontend-project"
                 target="_blank"
                 rel="noreferrer"
               >
