@@ -1,4 +1,4 @@
-### Live Demo https://that-seo-girl.netlify.app/
+### Live Demo https://thatseogirl.netlify.app//
 
 
 ### This is an overview of some of my projects on github

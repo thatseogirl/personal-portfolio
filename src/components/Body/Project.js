@@ -245,7 +245,7 @@ export default function Project() {
                 <AiOutlineGithub className="linkicons" />
               </a>
               <a
-                href="https://that-seo-girl.netlify.app/"
+                href="https://thatseogirl.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
