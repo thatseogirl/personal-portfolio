@@ -2,16 +2,7 @@ import React from "react";
 import { BsEyeFill } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Card } from "react-bootstrap";
-
-import ecommerce from "../../images/ecommerce.png";
-import calculator from "../../images/calculator.png";
-import form from "../../images/form.png";
-import fylo from "../../images/fylo.png";
-import tip from "../../images/tip.png";
-import restapi from "../../images/restapi.png";
-import portfolio from "../../images/portfolio.png";
-import dashboard from "../../images/dashboard.png";
-import airbnb from "../../images/airbnb.png"
+import importedImages from "../index.js";
 
 export default function Project() {
   return (
@@ -27,7 +18,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={ecommerce}
+            src={importedImages.ecommerce}
             alt="E commerce Landing page"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -59,7 +50,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={calculator}
+            src={importedImages.calculator}
             alt="Calculator APP"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -92,7 +83,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={form}
+            src={importedImages.form}
             alt="Registration Form"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -126,7 +117,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={fylo}
+            src={importedImages.fylo}
             alt="Fylo dark theme website"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -159,7 +150,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={tip}
+            src={importedImages.tip}
             alt="Tip Calculator"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -192,7 +183,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={restapi}
+            src={importedImages.restapi}
             alt="RestAPI"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -225,7 +216,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={portfolio}
+            src={importedImages.portfolio}
             alt="Portfolio"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -258,7 +249,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={dashboard}
+            src={importedImages.dashboard}
             alt="Time tracking dashboard"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -291,7 +282,7 @@ export default function Project() {
           <Card.Img
             className="project__grid__card__link"
             variant="top"
-            src={airbnb}
+            src={importedImages.airbnb}
             alt="airbnb-clone"
           />
           <Card.Body className="project__grid__card__link__parent">
@@ -311,6 +302,38 @@ export default function Project() {
               </a>
               <a
                 href="https://tobi-airbnb-clone.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsEyeFill className="linkicons" />
+              </a>
+            </div>
+          </Card.Body>
+        </Card>
+        <Card className="project__grid__card" id="card9">
+          <Card.Img
+            className="project__grid__card__link"
+            variant="top"
+            src={importedImages.launch}
+            alt="airbnb-clone"
+          />
+          <Card.Body className="project__grid__card__link__parent">
+            <Card.Title className="project__grid__card__link__parent__heading">
+              Launch-countdown-timer
+            </Card.Title>
+            <Card.Text className="project__grid__card__link__parent__heading__review">
+              This is a lauch countdown timer.
+            </Card.Text>
+            <div className="icongroup">
+              <a
+                href="https://github.com/thatseogirl/Launch-countdown-timer"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
+                href="https://thatseogirl.github.io/Launch-countdown-timer/"
                 target="_blank"
                 rel="noreferrer"
               >
