@@ -46,9 +46,8 @@
                 &__calltoaction {
                   display: grid;
                   grid-template-columns: auto auto;
-                  gap: 10px;
                   padding-top: 60px;
-                  font: 600 100px myVariables.$font;
+                  font: 600 90px myVariables.$font;
                   color: myVariables.$bg;
                   word-spacing: 1rem;
                   line-height: 0.9em;
@@ -126,6 +125,7 @@
 
         &__title {
           font: 600 18px myVariables.$font;
+          color: myVariables.$hr;
 
           &__description {
             font: 200 12px myVariables.$font;
@@ -184,8 +184,4 @@
     opacity: 1;
     transform: translate(0, 0);
   }
-}
-
-span{
-  font-weight: bold;
 }

@@ -43,7 +43,7 @@ export default function Body() {
           <Card.Img
             className="card__section__cardwrapper__image"
             variant="top"
-            src="https://reactjs.org/logo-og.png"
+            src="https://images.unsplash.com/photo-1593720216276-0caa6452e004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZnJvbnRlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
             alt="Frontend Development"
           />
           <Card.Body className="card__section__cardwrapper__image__body">
@@ -52,11 +52,9 @@ export default function Body() {
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
               A Frontend developer who specializes in creating user friendly
-              website and responsive website, Technologies I can use
-              <span>
-                Bootstrap, CSS, HTML, Javascript,Material UI, React/Redux SASS, and
-                Typescript.
-              </span>
+              website and responsive website, Technologies I can use Bootstrap,
+              CSS, HTML, Javascript, Material UI, React/Redux, SCSS, and
+              Typescript.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -65,7 +63,7 @@ export default function Body() {
           <Card.Img
             className="card__section__cardwrapper__image"
             variant="top"
-            src="https://www.wiseo.be/sites/default/files/Knowledge-base-part-3_technical-SEO.png"
+            src="https://images.unsplash.com/photo-1616469829718-0faf16324280?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800"
             alt="Technical SEO"
           />
           <Card.Body className="card__section__cardwrapper__image__body">
@@ -74,8 +72,8 @@ export default function Body() {
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
               As a technical SEO Analyst, I modify, test and analyze web pages
-              for search engine optimization.Technologies I can use
-              <span> Yoast SEO, Google Analytics.</span>
+              for search engine optimization. Technologies I can use Yoast SEO,
+              Google Analytics.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -84,7 +82,7 @@ export default function Body() {
           <Card.Img
             className="card__section__cardwrapper__image"
             variant="top"
-            src="https://www.customerscope.nl/wp-content/uploads/2018/10/Digital-marketing-1080x675.jpg"
+            src="https://images.unsplash.com/photo-1607703703520-bb638e84caf2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800"
             alt="Digital marketing"
           />
           <Card.Body className="card__section__cardwrapper__image__body">
@@ -93,11 +91,9 @@ export default function Body() {
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
               I create great contents to impact an the target audience
-              positively while generating leads and acquiring
-              customers.Technologies I can use
-              <span>
-                 Canva, Msoffice, Adobe Photoshop, Trello,Adobe Illustrator
-              </span>
+              positively while generating leads and acquiring customers.
+              Technologies I can use Canva, Msoffice, Adobe Photoshop, Trello,
+              Adobe Illustrator
             </Card.Text>
           </Card.Body>
         </Card>
