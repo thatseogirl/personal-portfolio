@@ -315,7 +315,7 @@ export default function Project() {
             className="project__grid__card__link"
             variant="top"
             src={importedImages.launch}
-            alt="airbnb-clone"
+            alt="Launch countdown timer"
           />
           <Card.Body className="project__grid__card__link__parent">
             <Card.Title className="project__grid__card__link__parent__heading">
@@ -334,6 +334,38 @@ export default function Project() {
               </a>
               <a
                 href="https://thatseogirl.github.io/Launch-countdown-timer/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsEyeFill className="linkicons" />
+              </a>
+            </div>
+          </Card.Body>
+        </Card>
+        <Card className="project__grid__card" id="card10">
+          <Card.Img
+            className="project__grid__card__link"
+            variant="top"
+            src={importedImages.user}
+            alt="Live User Filter"
+          />
+          <Card.Body className="project__grid__card__link__parent">
+            <Card.Title className="project__grid__card__link__parent__heading">
+              Live User Filter
+            </Card.Title>
+            <Card.Text className="project__grid__card__link__parent__heading__review">
+              This is a user filter app.
+            </Card.Text>
+            <div className="icongroup">
+              <a
+                href="https://github.com/thatseogirl/Live-user-filter"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
+                href="https://thatseogirl.github.io/Live-user-filter/"
                 target="_blank"
                 rel="noreferrer"
               >
