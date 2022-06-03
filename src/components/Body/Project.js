@@ -354,7 +354,7 @@ export default function Project() {
               Live User Filter
             </Card.Title>
             <Card.Text className="project__grid__card__link__parent__heading__review">
-              This is a user filter app.
+              This is a user filter app. Users can be searched by name, and / or location.
             </Card.Text>
             <div className="icongroup">
               <a
