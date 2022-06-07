@@ -9,7 +9,8 @@ const importedImages = {
   dashboard: require("../images/dashboard.png"),
   airbnb: require("../images/airbnb.png"),
   launch: require("../images/launch.png"),
-  user: require("../images/user.png")
+  user: require("../images/user.png"),
+  shortening: require("../images/shortening.png")
 };
 
 export default importedImages;

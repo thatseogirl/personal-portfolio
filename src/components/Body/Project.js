@@ -374,6 +374,38 @@ export default function Project() {
             </div>
           </Card.Body>
         </Card>
+        <Card className="project__grid__card" id="card11">
+          <Card.Img
+            className="project__grid__card__link"
+            variant="top"
+            src={importedImages.shortening}
+            alt="Live User Filter"
+          />
+          <Card.Body className="project__grid__card__link__parent">
+            <Card.Title className="project__grid__card__link__parent__heading">
+              Shortly URL Shortening API App.
+            </Card.Title>
+            <Card.Text className="project__grid__card__link__parent__heading__review">
+              This is a url shortening API app
+            </Card.Text>
+            <div className="icongroup">
+              <a
+                href="https://github.com/thatseogirl/url-shortening-api-landing-page"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiOutlineGithub className="linkicons" />
+              </a>
+              <a
+                href="https://tobi-url-shortening-api.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsEyeFill className="linkicons" />
+              </a>
+            </div>
+          </Card.Body>
+        </Card>
       </div>
     </div>
   );
