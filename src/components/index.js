@@ -10,7 +10,8 @@ const importedImages = {
   airbnb: require("../images/airbnb.png"),
   launch: require("../images/launch.png"),
   user: require("../images/user.png"),
-  shortening: require("../images/shortening.png")
+  shortening: require("../images/shortening.png"),
+  questionnaire: require("../images/questionnaire.png")
 };
 
 export default importedImages;

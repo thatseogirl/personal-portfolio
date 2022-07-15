@@ -72,8 +72,8 @@ export default function Body() {
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
               As a technical SEO Analyst, I modify, test and analyze web pages
-              for search engine optimization. Technologies I can use Yoast SEO,
-              Google Analytics.
+              for search engine optimization. Technologies I can use are Yoast SEO
+              and Google Analytics.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -90,10 +90,10 @@ export default function Body() {
               Digital Content Marketing
             </Card.Title>
             <Card.Text className="card__section__cardwrapper__image__body__title__description">
-              I create great contents to impact an the target audience
+              I create great contents to impact target audience
               positively while generating leads and acquiring customers.
-              Technologies I can use Canva, Msoffice, Adobe Photoshop, Trello,
-              Adobe Illustrator
+              Technologies I can use are Canva, Msoffice, Adobe Photoshop, Trello and
+              Adobe Illustrator.
             </Card.Text>
           </Card.Body>
         </Card>
