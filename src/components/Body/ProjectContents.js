@@ -139,6 +139,6 @@ const ProjectContents = [
         demo: "https://task-tracker-tobi.netlify.app/"
     }
 
-]
+];
 
 export default ProjectContents;
