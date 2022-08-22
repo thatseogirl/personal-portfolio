@@ -2,6 +2,7 @@ import React from "react";
 import { ReactComponent as UpdateSvg } from "../../images/update.svg";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { Card, Button } from "react-bootstrap";
+import { cardContents } from "../../constants"
 
 export default function Body() {
   return (
@@ -38,67 +39,28 @@ export default function Body() {
         </div>
       </section>
 
+
       <section data-aos='fade-left' className='card__section'>
-        <Card className='card__section__cardwrapper'>
-          <Card.Img
-            className='card__section__cardwrapper__image'
-            variant='top'
-            src='https://images.unsplash.com/photo-1593720216276-0caa6452e004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZnJvbnRlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
-            alt='Frontend Development'
-          />
-          <Card.Body className='card__section__cardwrapper__image__body'>
-            <Card.Title className='card__section__cardwrapper__image__body__title'>
-              Frontend Development
-            </Card.Title>
-            <Card.Text className='card__section__cardwrapper__image__body__title__description'>
-              A Frontend developer who specializes in creating user friendly
-              website and responsive website, Technologies I can use
-              <b>
-                Bootstrap, CSS, HTML, Javascript, Material UI, React/Redux,
-                SCSS, Styled Components, CSS-IN-JS, Git, Github and Typescript.
-              </b>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card className='card__section__cardwrapper'>
-          <Card.Img
-            className='card__section__cardwrapper__image'
-            variant='top'
-            src='https://images.unsplash.com/photo-1616469829718-0faf16324280?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800'
-            alt='Technical SEO'
-          />
-          <Card.Body className='card__section__cardwrapper__image__body'>
-            <Card.Title className='card__section__cardwrapper__image__body__title'>
-              Technical SEO
-            </Card.Title>
-            <Card.Text className='card__section__cardwrapper__image__body__title__description'>
-              As a technical SEO Analyst, I modify, test and analyze web pages
-              for search engine optimization. Technologies I can use are <b> Yoast SEO and Google Analytics.</b>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card className='card__section__cardwrapper'>
-          <Card.Img
-            className='card__section__cardwrapper__image'
-            variant='top'
-            src='https://images.unsplash.com/photo-1607703703520-bb638e84caf2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800'
-            alt='Digital marketing'
-          />
-          <Card.Body className='card__section__cardwrapper__image__body'>
-            <Card.Title className='card__section__cardwrapper__image__body__title'>
-              Digital Content Marketing
-            </Card.Title>
-            <Card.Text className='card__section__cardwrapper__image__body__title__description'>
-              I create great contents to impact target audience positively while
-              generating leads and acquiring customers. Technologies I can use
-              are
-              <b>Canva, Msoffice, Adobe Photoshop, Trello and Adobe Illustrator.</b>
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        {cardContents.map((item) => (
+          <Card className='card__section__cardwrapper' key={item.id}>
+            <Card.Img
+              className='card__section__cardwrapper__image'
+              variant='top'
+              src={item.image}
+              alt={item.title}
+            />
+            <Card.Body className='card__section__cardwrapper__image__body'>
+              <Card.Title className='card__section__cardwrapper__image__body__title'>
+                {item.title}
+              </Card.Title>
+              <Card.Text className='card__section__cardwrapper__image__body__title__description'>
+                {item.description} <b> {item.technology} </b>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
       </section>
+
     </div>
   );
 }

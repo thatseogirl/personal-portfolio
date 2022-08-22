@@ -3,7 +3,7 @@ import Navigation from './Navigation/Navigation';
 import Header from './Header/Header';
 import Project from "./Body/Project";
 import Footer from './Footer/Footer';
-import ProjectContents from './Body/ProjectContents';
+import { ProjectContents, cardContents } from '../constants';
 
 export {
     Body,
@@ -11,5 +11,6 @@ export {
     Header,
     Project,
     Footer,
-    ProjectContents
+    ProjectContents,
+    cardContents
 }

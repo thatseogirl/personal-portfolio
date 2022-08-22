@@ -2,8 +2,9 @@ import React from "react";
 import { BsEyeFill } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Card } from "react-bootstrap";
+import { ProjectContents } from "../../constants"
 
-export default function Project({ data }) {
+export default function Project() {
   return (
     <div id="project" className="project" data-aos="fade-right">
       <aside className="aside">
@@ -14,7 +15,7 @@ export default function Project({ data }) {
       </aside>
 
       <div className="project__grid" >
-        {data.map((item) => (
+        {ProjectContents.map((item) => (
           <Card className="project__grid__card" key={item.id}>
             <Card.Img
               className="project__grid__card__link"
@@ -30,7 +31,7 @@ export default function Project({ data }) {
                 {item.description}
               </Card.Text>
               <Card.Text className="project__grid__card__link__parent__heading__review">
-                Technologies used: <b>{item.technology}</b>
+                Technologies used: <b> {item.technology} </b>
               </Card.Text>
               <div className="icongroup">
                 <a

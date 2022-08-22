@@ -1,4 +1,4 @@
-const ProjectContents = [
+export const ProjectContents = [
     {
         id: 1,
         image: "questionnaire.png",
@@ -141,4 +141,26 @@ const ProjectContents = [
 
 ];
 
-export default ProjectContents;
+export const cardContents = [
+    {
+        id: 1,
+        image: "https://images.unsplash.com/photo-1593720216276-0caa6452e004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZnJvbnRlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+        title: "Frontend Development",
+        description: "A Frontend developer who specializes in creating user friendly website and responsive website, Technologies I can use",
+        technology: "Bootstrap, CSS, HTML, Javascript, Material UI, React/Redux,SCSS, Styled Components, CSS-IN-JS, Git, Github and Typescript.",
+    },
+    {
+        id: 2,
+        image: "https://images.unsplash.com/photo-1616469829718-0faf16324280?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800",
+        title: "Technical SEO",
+        description: "As a technical SEO Analyst, I modify, test and analyze web pages for search engine optimization. Technologies I can use are",
+        technology: "Yoast SEO and Google Analytics.",
+    },
+    {
+        id: 3,
+        image: "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800",
+        title: "Digital Content Marketing",
+        description: "I create great contents to impact target audience positively while generating leads and acquiring customers. Technologies I can use are",
+        technology: "Canva, Msoffice, Adobe Photoshop, Trello and Adobe Illustrator.",
+    }
+];

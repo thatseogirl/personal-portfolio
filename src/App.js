@@ -1,13 +1,11 @@
-/* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './App.scss';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Body, Navigation, Header, Project, Footer, ProjectContents } from './components'
+import { Body, Navigation, Header, Project, Footer } from './components'
 
 
 function App() {
-  const [data, setData] = useState(ProjectContents)
 
   useEffect(() => {
     AOS.init({
@@ -22,7 +20,7 @@ function App() {
         <Header />
       </header>
       <Body />
-      <Project data={data} />
+      <Project />
       <Footer />
     </div>
   );
