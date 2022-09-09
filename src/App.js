@@ -15,10 +15,10 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <header className='header' id="home">
+      <div className='header' id="home">
         <Navigation />
         <Header />
-      </header>
+      </div>
       <Body />
       <Project />
       <Footer />

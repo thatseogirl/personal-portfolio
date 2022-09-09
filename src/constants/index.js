@@ -1,6 +1,16 @@
 export const ProjectContents = [
     {
         id: 1,
+        image: "Real-Estate.png",
+        title: "Real Estate App",
+        description: "This is a Real Estate App with dummy data.  As a user you can see overview of all listing, you can create listing,  you can edit/delete listing if it was created by you, you can search for a house.",
+        technology: "React, React Router, React Hooks, Styled Components, Redux,",
+        github: "https://github.com/thatseogirl/real-estate-app",
+        demo: "https://tobi-real-estate-app.netlify.app/"
+    },
+
+    {
+        id: 2,
         image: "questionnaire.png",
         title: "Insurance questionnaire",
         description: "In this questionnaire we would like have an understanding of what/who you want to insure.",
@@ -10,7 +20,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 2,
+        id: 3,
         image: "ecommerce.png",
         title: "E commerce Landing page",
         description: "It allows users to add product to cart, increment values and decrement values,and also to view various images on a product.",
@@ -20,7 +30,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 3,
+        id: 4,
         image: "calculator.png",
         title: "Calculator App",
         description: "It allows users to sum up values, multiply, delete, divide, reset, and subtract values.",
@@ -30,7 +40,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 4,
+        id: 5,
         image: "restapi.png",
         title: "Country RESTAPI",
         description: "This is a country list of the world, user can view each country details and add country to cart.",
@@ -40,7 +50,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 5,
+        id: 6,
         image: "dashboard.png",
         title: "Time Tracking Dashboard",
         description: "This is a Time tracking dashboard, it allows users to switch between viewing daily, weekly, and monthly stats",
@@ -50,7 +60,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 6,
+        id: 7,
         image: "tip.png",
         title: "Tip Calculator",
         description: "This is a Tip Calculator that allows users calculate their bills and tip per person.",
@@ -60,7 +70,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 7,
+        id: 8,
         image: "launch.png",
         title: " Launch countdown timer",
         description: "This is a lauch countdown timer.",
@@ -70,7 +80,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 8,
+        id: 9,
         image: "shortening.png",
         title: "Shortly URL Shortening API App.",
         description: "This is a url shortener",
@@ -80,7 +90,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 9,
+        id: 10,
         image: "form.png",
         title: "Registration Form",
         description: "This is a registration form that allows users to create an account and login.",
@@ -90,7 +100,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 10,
+        id: 11,
         image: "user.png",
         title: "Live User Filter",
         description: "This is a user filter app. Users can be searched by name, and / or location.",
@@ -100,7 +110,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 11,
+        id: 12,
         image: "airbnb.png",
         title: "Airbnb Clone",
         description: "This is a clone of the Airbnb Landing page.",
@@ -110,7 +120,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 12,
+        id: 13,
         image: "portfolio.png",
         title: "Portfolio",
         description: "This is an overview of some of my Projects,you can also view all projects on my Github.",
@@ -120,7 +130,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 13,
+        id: 14,
         image: "fylo.png",
         title: "Fylo dark theme website",
         description: "This a dark themed website.",
@@ -130,7 +140,7 @@ export const ProjectContents = [
     },
 
     {
-        id: 13,
+        id: 15,
         image: "task-tracker.png",
         title: "Task Tracker",
         description: "This a task tracker app, users can add, edit, delete task and toggle reminder.",
@@ -144,21 +154,18 @@ export const ProjectContents = [
 export const cardContents = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1593720216276-0caa6452e004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZnJvbnRlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
         title: "Frontend Development",
         description: "A Frontend developer who specializes in creating user friendly website and responsive website, Technologies I can use",
         technology: "Bootstrap, CSS, HTML, Javascript, Material UI, React/Redux,SCSS, Styled Components, CSS-IN-JS, Git, Github and Typescript.",
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1616469829718-0faf16324280?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800",
         title: "Technical SEO",
         description: "As a technical SEO Analyst, I modify, test and analyze web pages for search engine optimization. Technologies I can use are",
         technology: "Yoast SEO and Google Analytics.",
     },
     {
         id: 3,
-        image: "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800",
         title: "Digital Content Marketing",
         description: "I create great contents to impact target audience positively while generating leads and acquiring customers. Technologies I can use are",
         technology: "Canva, Msoffice, Adobe Photoshop, Trello and Adobe Illustrator.",

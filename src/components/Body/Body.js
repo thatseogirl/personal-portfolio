@@ -43,12 +43,6 @@ export default function Body() {
       <section data-aos='fade-left' className='card__section'>
         {cardContents.map((item) => (
           <Card className='card__section__cardwrapper' key={item.id}>
-            <Card.Img
-              className='card__section__cardwrapper__image'
-              variant='top'
-              src={item.image}
-              alt={item.title}
-            />
             <Card.Body className='card__section__cardwrapper__image__body'>
               <Card.Title className='card__section__cardwrapper__image__body__title'>
                 {item.title}

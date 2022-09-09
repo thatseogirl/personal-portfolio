@@ -95,7 +95,6 @@
 
   &__cardwrapper {
     width: 20rem;
-    height: 500px;
     border: none !important;
     border-radius: 20px;
     @include mixins.respond(medium) {
