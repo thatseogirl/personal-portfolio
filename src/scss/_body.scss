@@ -11,7 +11,7 @@
     }
 
     &__layout {
-      padding: 50px;
+      padding: 20px 20px 10px;
       margin-left: 40px;
       @include mixins.respond(thin) {
         padding: 30px;
@@ -86,29 +86,38 @@
 }
 
 .card__section {
-  display: flex;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(10, 70px);
   justify-content: center;
-  @include mixins.respond(small) {
-    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  @include mixins.respond(medium) {
+    display: grid;
+    grid-template-columns: repeat(5, 70px);
+    @include mixins.respond(small) {
+      grid-template-columns: repeat(3, 70px);
+    }
     padding: 30px;
   }
 
   &__cardwrapper {
-    width: 20rem;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: none !important;
-    border-radius: 20px;
+    border-radius: 5px;
     @include mixins.respond(medium) {
-      width: 18rem;
       margin: auto;
-      gap: 30px;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
     }
-    &:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
-      cursor: pointer;
+    &__link {
+      width: 50px;
+      place-items: center;
     }
-
     &__image {
       padding: 40px;
       border-radius: 50%;

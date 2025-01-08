@@ -154,20 +154,52 @@ export const ProjectContents = [
 export const cardContents = [
     {
         id: 1,
-        title: "Frontend Development",
-        description: "A Frontend developer who specializes in creating user friendly website and responsive website, Technologies I can use",
-        technology: "Bootstrap, CSS, HTML, Javascript, Material UI, React/Redux,SCSS, Styled Components, CSS-IN-JS, Git, Github and Typescript.",
-    },
-    {
+        title: "html",
+        image: "html5.png"
+     },
+     {
         id: 2,
-        title: "Technical SEO",
-        description: "As a technical SEO Analyst, I modify, test and analyze web pages for search engine optimization. Technologies I can use are",
-        technology: "Yoast SEO and Google Analytics.",
-    },
-    {
+        title: "css",
+        image: "css.png"
+     },
+     {
         id: 3,
-        title: "Digital Content Marketing",
-        description: "I create great contents to impact target audience positively while generating leads and acquiring customers. Technologies I can use are",
-        technology: "Canva, Msoffice, Adobe Photoshop, Trello and Adobe Illustrator.",
-    }
+        title: "javascript",
+        image: "javascript.png"
+     },
+     {
+        id: 4,
+        title: "react",
+        image: "react.png"
+     },
+     {
+        id: 5,
+        title: "reduxjs",
+        image: "reduxjs.png"
+     },
+     {
+        id: 6,
+        title: "nodejs",
+        image: "nodejs.png"
+     },
+     {
+        id: 7,
+        title: "expressjs",
+        image: "expressjs.png"
+     },
+     {
+        id: 8,
+        title: "mongodb",
+        image: "mongodb.png"
+     },
+     {
+        id: 9,
+        title: "aws",
+        image: "aws.png"
+     },
+     {
+        id: 9,
+        title: "terraform",
+        image: "terraform.png"
+     },
 ];

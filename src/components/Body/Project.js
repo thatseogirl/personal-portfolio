@@ -14,16 +14,17 @@ export default function Project() {
   }
 
   return (
-    <div id="project" className="project" data-aos="fade-right">
+    <div id="project" className="project" >
       <aside className="aside">
         <div className="aside__horizontal">
           <hr className="aside__horizontal__rule" />
-          <p className="aside__horizontal__rule__ptag">Some of my projects</p>
+          <p className="aside__horizontal__rule__ptag">some of my projects</p>
         </div>
       </aside>
 
       {/* Carousel */}
       <Carousel
+      // data-aos="fade-right"
         nextIcon={
           <span
             className="carousel-control-next-icon"
