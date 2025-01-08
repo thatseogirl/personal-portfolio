@@ -19,7 +19,7 @@ function App() {
         <Navigation />
         <Header />
       </div>
-      <Body />
+      {/* <Body /> */}
       <Project />
       <Footer />
     </div>

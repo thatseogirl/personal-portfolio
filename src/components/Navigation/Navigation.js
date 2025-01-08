@@ -32,12 +32,12 @@ export default function Navigation() {
             >
               Home
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               className="navigation__container__link__icon__responsive__li"
               href="#skills"
             >
               Skills
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               className="navigation__container__link__icon__responsive__li"
               href="#project"

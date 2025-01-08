@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div>
-        <p>Created by Arotimi Tobiloba</p>
+        <p>Created by Tobiloba</p>
       </div>
       <div className="footer__social">
         <a

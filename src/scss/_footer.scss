@@ -4,12 +4,12 @@
 .footer {
   display: flex;
   justify-content: center;
-  padding: 30px;
-  font: 600 15px myVariables.$font;
+  padding: 20px;
+  font: 600 12px myVariables.$font;
   &__social {
     &__favicon {
       margin-left: 20px;
-      font-size: 20px;
+      font-size: 14px;
       &:hover {
         color: myVariables.$hr;
         cursor: pointer;

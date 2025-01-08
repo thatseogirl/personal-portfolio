@@ -3,7 +3,7 @@ export const ProjectContents = [
         id: 1,
         image: "Real-Estate.png",
         title: "Real Estate App",
-        description: "This is a Real Estate App with dummy data.  As a user you can see overview of all listing, you can create listing,  you can edit/delete listing if it was created by you, you can search for a house.",
+        description:"Users can view all listings, create their own, edit or delete their listings, and search for houses.",
         technology: "React, React Router, React Hooks, Styled Components, Redux,",
         github: "https://github.com/thatseogirl/real-estate-app",
         demo: "https://tobi-real-estate-app.netlify.app/"
@@ -35,8 +35,8 @@ export const ProjectContents = [
         title: "Calculator App",
         description: "It allows users to sum up values, multiply, delete, divide, reset, and subtract values.",
         technology: "React, Redux, CSS, Unit Test",
-        github: "https://github.com/thatseogirl/E-commerce-Landing-Page",
-        demo: "https://tobi-e-commerce.netlify.app/"
+        github: "https://github.com/thatseogirl/calculator-app?tab=readme-ov-file",
+        demo: "https://redux-calculator-app.netlify.app/"
     },
 
     {
@@ -53,7 +53,7 @@ export const ProjectContents = [
         id: 6,
         image: "dashboard.png",
         title: "Time Tracking Dashboard",
-        description: "This is a Time tracking dashboard, it allows users to switch between viewing daily, weekly, and monthly stats",
+        description: "This is a Time tracking dashboard, it allows users to switch between stats",
         technology: "HTML, CSS, and Vanilla Javascript",
         github: "https://github.com/thatseogirl/Time-tracking-dashboard",
         demo: "https://thatseogirl.github.io/Time-tracking-dashboard/"
@@ -69,15 +69,15 @@ export const ProjectContents = [
         demo: "https://thatseogirl.github.io/Tip-Calculator/"
     },
 
-    {
-        id: 8,
-        image: "launch.png",
-        title: " Launch countdown timer",
-        description: "This is a lauch countdown timer.",
-        technology: "HTML, CSS, Vanilla Javascript",
-        github: "https://github.com/thatseogirl/Launch-countdown-timer",
-        demo: "https://thatseogirl.github.io/Launch-countdown-timer/"
-    },
+    // {
+    //     id: 8,
+    //     image: "launch.png",
+    //     title: " Launch countdown timer",
+    //     description: "This is a lauch countdown timer.",
+    //     technology: "HTML, CSS, Vanilla Javascript",
+    //     github: "https://github.com/thatseogirl/Launch-countdown-timer",
+    //     demo: "https://thatseogirl.github.io/Launch-countdown-timer/"
+    // },
 
     {
         id: 9,
@@ -119,15 +119,15 @@ export const ProjectContents = [
         demo: "https://tobi-airbnb-clone.netlify.app/"
     },
 
-    {
-        id: 13,
-        image: "portfolio.png",
-        title: "Portfolio",
-        description: "This is an overview of some of my Projects,you can also view all projects on my Github.",
-        technology: "React, React Hooks, SCSS, AOS Animations,",
-        github: "https://github.com/thatseogirl/personal-portfolio",
-        demo: "https://thatseogirl.netlify.app/"
-    },
+    // {
+    //     id: 13,
+    //     image: "portfolio.png",
+    //     title: "Portfolio",
+    //     description: "This is an overview of some of my Projects,you can also view all projects on my Github.",
+    //     technology: "React, React Hooks, SCSS, AOS Animations,",
+    //     github: "https://github.com/thatseogirl/personal-portfolio",
+    //     demo: "https://thatseogirl.netlify.app/"
+    // },
 
     {
         id: 14,
@@ -139,15 +139,15 @@ export const ProjectContents = [
         demo: "https://tobi-fylo-website.netlify.app/"
     },
 
-    {
-        id: 15,
-        image: "task-tracker.png",
-        title: "Task Tracker",
-        description: "This a task tracker app, users can add, edit, delete task and toggle reminder.",
-        technology: "React, React Hooks, CSS",
-        github: "https://github.com/thatseogirl/Task-tracker",
-        demo: "https://task-tracker-tobi.netlify.app/"
-    }
+    // {
+    //     id: 15,
+    //     image: "task-tracker.png",
+    //     title: "Task Tracker",
+    //     description: "This a task tracker app, users can add, edit, delete task and toggle reminder.",
+    //     technology: "React, React Hooks, CSS",
+    //     github: "https://github.com/thatseogirl/Task-tracker",
+    //     demo: "https://task-tracker-tobi.netlify.app/"
+    // }
 
 ];
 

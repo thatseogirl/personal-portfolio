@@ -37,7 +37,8 @@
 
             &__sub {
               &__heading {
-                font: 600 22px myVariables.$font;
+                font: 600 16px myVariables.$font;
+                max-width: 90%;
                 color: myVariables.$bg;
                 @include mixins.respond(thin) {
                   font-size: 15px;

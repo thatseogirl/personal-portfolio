@@ -2,7 +2,7 @@
 @use "mixins";
 
 .project {
-  padding: 50px;
+  padding: 0 50px 0;
   @include mixins.respond(thin) {
     padding: 0;
     margin-top: 40px;
@@ -10,54 +10,57 @@
 
   &__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 40px;
+    padding: 0 40px 20px;
     @include mixins.respond(medium) {
+      grid-template-columns: repeat(2, 1fr);
+      padding-top: 10px;
+    }
+    @include mixins.respond(thin) {
       grid-template-columns: 1fr;
       padding-top: 10px;
     }
 
     &__card {
       border-radius: 25px;
+      max-width: 340px;
+      height: 340px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       border: none !important;
       @include mixins.respond(medium) {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-          rgba(0, 0, 0, 0.12) 0px -3px 5px;
         margin: auto;
       }
       @include mixins.respond(small) {
         width: 100%;
       }
       &:hover {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        transform: scale(1.05);
+        box-shadow: #4c40f7;
           cursor: pointer;
       }
 
       &__link {
-        height: 50vh;
+        height: 50%;
         border-radius: 10px;
         @include mixins.respond (thin){
-          height: 30vh;
+          // height: 30vh;
         }
 
         &__parent {
           text-decoration: none;
           color: myVariables.$bg;
           text-align: left;
-          padding: 40px;
           &:hover {
             color: myVariables.$bg;
           }
 
           &__heading {
-            font: 600 25px myVariables.$font;
+            font: 600 15px myVariables.$font;
 
             &__review {
-              font: 200 14px myVariables.$font;
-
+              font: 200 10px myVariables.$font;
+              margin-bottom: 0.45em;
               &__cardbtn {
                 border: 1px;
                 border-radius: 20px;
@@ -86,11 +89,12 @@
 .icongroup {
   display: flex;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 10px;
+  padding: 0 30px 10px;
 }
 
 .linkicons {
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
   &:hover {
     color: myVariables.$hr;
@@ -123,4 +127,24 @@
 a{
   text-decoration: none;
   color: myVariables.$bg;
+}
+//carousel
+// .carousel-control-prev,
+// .carousel-control-next {
+//   opacity: 0.8; 
+// }
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  // background-color: darkred; /* Darker shade on hover */
+  opacity: 1; /* Full opacity on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  // filter: invert(100%);
+  width: 20px; 
+  height: 20px; 
+  fill: #4c40f7;
+  background-color: #4c40f7 !important;
 }
