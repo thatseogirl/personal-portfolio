@@ -2,7 +2,10 @@
 @use "./mixins";
 
 .navigation {
-  padding: 0 40px 0;
+  padding: 20px 40px 20px;
+  @include mixins.respond(thin) {
+    padding: 40px;
+  }
   &__container {
     padding: 20px;
     @include mixins.respond(thin) {

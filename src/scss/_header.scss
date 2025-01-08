@@ -44,17 +44,18 @@
 }
 
 .about {
-  font: 600 40px myVariables.$font;
+  font: 600 25px myVariables.$font;
   color: myVariables.$bg;
   justify-content: center;
   text-align: center;
-  line-height: 1.25em;
-  padding-left: 40px;
+  line-height: 0.75em;
+  // padding-left: 40px;
   @include mixins.respond(thin) {
-    font: 600 30px myVariables.$font;
+    // font: 600 30px myVariables.$font;
     padding-left: 20px;
 
   }
+ 
 }
 
 #monitor {

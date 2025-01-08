@@ -12,9 +12,9 @@ export default function Header() {
           </section> */}
           <div className="about">
             <p className="about">Hello, I'm Tobi.</p>
-            <p className="about">A full-stack developer</p>
+            <p className="about_2">A full-stack developer</p>
             {/* <p data-aos="flip-up" className="about flip">
-           developer.
+            A full-stack developer
             </p> */}
           </div>
     
