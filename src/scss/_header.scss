@@ -39,17 +39,13 @@
 .about {
   font: 600 40px myVariables.$font;
   color: myVariables.$bg;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
   text-align: center;
   line-height: 0.75em;
   @include mixins.respond(medium) {
     font: 600 25px myVariables.$font;
-    padding-left: 20px;
-    line-height: 0.6em;
-  }
-  @include mixins.respond(thin) {
-    font: 600 20px myVariables.$font;
-    padding-left: 20px;
     line-height: 0.6em;
   }
  
