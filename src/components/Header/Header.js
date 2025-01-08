@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as DesignSvg } from "../../images/design.svg";
 
 export default function Header() {
   return (

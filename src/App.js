@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.scss';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Body, Navigation, Header, Project, Footer } from './components'
+import { Navigation, Header, Project, Footer } from './components'
 
 
 function App() {

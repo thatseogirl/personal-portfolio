@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactComponent as UpdateSvg } from "../../images/update.svg";
 import { BiRightArrowAlt } from "react-icons/bi";
-import { Card, Button } from "react-bootstrap";
+import {  Button } from "react-bootstrap";
 // import { cardContents } from "../../constants"
 
 export default function Body() {
