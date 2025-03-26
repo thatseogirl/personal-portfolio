@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsEyeFill } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Card, Carousel } from "react-bootstrap";
@@ -13,18 +13,20 @@ export default function Project() {
     chunkedProjects.push(ProjectContents.slice(i, i + chunkSize));
   }
 
+  // Track the hover state for each card by its id
+  const [hoveredCard, setHoveredCard] = useState(null);
+
   return (
-    <div id="project" className="project" >
+    <div id="project" className="project">
       <aside className="aside">
         <div className="aside__horizontal">
           <hr className="aside__horizontal__rule" />
-          <p className="aside__horizontal__rule__ptag">some of my projects</p>
+          <p className="aside__horizontal__rule__ptag">Some of my projects</p>
         </div>
       </aside>
 
       {/* Carousel */}
       <Carousel
-      // data-aos="fade-right"
         nextIcon={
           <span
             className="carousel-control-next-icon"
@@ -42,14 +44,25 @@ export default function Project() {
           <Carousel.Item key={index}>
             <div className="project__grid">
               {projectGroup.map((item) => (
-                <Card className="project__grid__card" key={item.id}>
+                <Card
+                  className="project__grid__card"
+                  key={item.id}
+                  onMouseEnter={() => setHoveredCard(item.id)}
+                  onMouseLeave={() => setHoveredCard(null)}
+                >
                   <Card.Img
                     className="project__grid__card__link"
                     variant="top"
                     src={`./images/${item.image}`}
                     alt={item.title}
                   />
-                  <Card.Body className="project__grid__card__link__parent">
+                  {/* Front Side */}
+                  <Card.Body
+                    className="project__grid__card__link__parent"
+                    style={{
+                      display: hoveredCard === item.id ? "none" : "block",
+                    }}
+                  >
                     <Card.Title className="project__grid__card__link__parent__heading">
                       {item.title}
                     </Card.Title>
@@ -58,6 +71,21 @@ export default function Project() {
                     </Card.Text>
                     <Card.Text className="project__grid__card__link__parent__heading__review">
                       Technologies used: <b>{item.technology}</b>
+                    </Card.Text>
+                  </Card.Body>
+                  {/* Back Side */}
+                  <Card.Body
+                    className="project__grid__card__link__parent"
+                    style={{
+                      display: hoveredCard === item.id ? "block" : "none",
+                      backgroundColor: hoveredCard === item.id ? "#4c40f7" : "fff",
+                    }}
+                  >
+                    <Card.Text className="project__grid__card__link__parent__heading__review">
+                     <b>Inspiration: </b> {item.inspiration}
+                    </Card.Text>
+                    <Card.Text className="project__grid__card__link__parent__heading__review">
+                      <b>Challenges: </b>{item.challenges}
                     </Card.Text>
                   </Card.Body>
                   <div className="icongroup">
