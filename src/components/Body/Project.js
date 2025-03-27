@@ -78,7 +78,7 @@ export default function Project() {
                     className="project__grid__card__link__parent"
                     style={{
                       display: hoveredCard === item.id ? "block" : "none",
-                      backgroundColor: hoveredCard === item.id ? "#4c40f7" : "fff",
+                      backgroundColor: "fff",
                     }}
                   >
                     <Card.Text className="project__grid__card__link__parent__heading__review">

@@ -3,12 +3,9 @@ export const ProjectContents = [
     id: 1.1,
     image: "goalPlanner.png",
     title: "Goal Organiser App",
-    challenges:
-      "Managing form state globally with Redux, optimizing performance when rendering multiple goal items, and structuring a scalable component architecture.",
-    inspiration:
-      "Inspired by personal productivity tools like Notion and Todoist, with a focus on building a simple, focused app to track and manage learning goals.",
-    description:
-      "A personal goal-tracking app where users can add,and delete learning goals with a short description. The app is fully type-safe and built using modern React and Redux best practices.",
+    challenges:"Managing form state globally with Redux, and structuring a scalable component architecture.",
+    inspiration:"Inspired by personal productivity tools like Notion and Todoist, with a focus on building an app to track and manage learning goals.",
+    description:"A personal goal-tracking app where users can add and delete learning goals with a short description.",
     technology: "React, TypeScript, Redux Toolkit, CSS",
 
     github: "https://github.com/thatseogirl/Goal-builder",
