@@ -1,7 +1,7 @@
 export const ProjectContents = [
   {
-    id: 1.1,
-    image: "goalPlanner.png",
+    id: 1,
+    image: "goal.png",
     title: "Goal Organiser App",
     challenges:"Managing form state globally with Redux, and structuring a scalable component architecture.",
     inspiration:"Inspired by personal productivity tools like Notion and Todoist, with a focus on building an app to track and manage learning goals.",
@@ -12,7 +12,7 @@ export const ProjectContents = [
     demo: "https://goal-organiser.netlify.app/",
   },
   {
-    id: 1,
+    id: 2,
     image: "Real-Estate.png",
     title: "Real Estate App",
     challenges:
@@ -27,7 +27,7 @@ export const ProjectContents = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: "questionnaire.png",
     title: "Insurance questionnaire",
     challenges:
@@ -43,7 +43,7 @@ export const ProjectContents = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: "ecommerce.png",
     title: "E commerce Landing page",
     challenges:
@@ -58,7 +58,7 @@ export const ProjectContents = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: "calculator.png",
     title: "Calculator App",
     challenges:
@@ -73,7 +73,7 @@ export const ProjectContents = [
   },
 
   {
-    id: 5,
+    id: 6,
     image: "restapi.png",
     title: "Country RESTAPI",
     challenges:
@@ -88,7 +88,7 @@ export const ProjectContents = [
   },
 
   {
-    id: 6,
+    id: 7,
     image: "dashboard.png",
     title: "Time Tracking Dashboard",
     challenges:
@@ -103,7 +103,7 @@ export const ProjectContents = [
   },
 
   {
-    id: 7,
+    id: 8,
     image: "tip.png",
     title: "Tip Calculator",
     challenges:
